@@ -4,9 +4,15 @@ int main()
 {
     int n=2,m;
 
-    for (int i=0; i<=10; i++)
+    // printf("%d", n);
+
+    for (int i=0; i<=6; i++)
+    {
         m = n * 3;
-        printf("%d\t", m);
+        printf("%d\t", n, m);
+        n = m;
+    }
+    
     
 
 
